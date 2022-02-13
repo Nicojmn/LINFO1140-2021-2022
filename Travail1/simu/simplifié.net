@@ -1,0 +1,7 @@
+* Z:\home\nicolas\UCL\BAC1-Q2\LINFO1140-electronique\travaux\2021-2022\LINFO1140-2021-2022\Travail1\simu\simplifié.asc
+I1 0 N1 1
+V1 N1 0 2
+Req 0 N1 10
+.op
+.backanno
+.end
