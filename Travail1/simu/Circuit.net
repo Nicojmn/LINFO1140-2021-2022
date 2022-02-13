@@ -1,9 +1,0 @@
-* Z:\home\nicolas\UCL\BAC1-Q2\LINFO1140-electronique\travaux\2021-2022\LINFO1140-2021-2022\Travail1\simu\Circuit.asc
-I1 0 N001 1
-V1 N001 0 2
-R2 N001 N002 15
-R3 N002 0 5
-R1 0 N001 20
-.op
-.backanno
-.end
