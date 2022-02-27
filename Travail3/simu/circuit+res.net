@@ -1,0 +1,12 @@
+* Z:\home\nicolas\UCL\BAC1-Q2\LINFO1140-electronique\travaux\2021-2022\LINFO1140-2021-2022\Travail3\simu\circuit+res.asc
+V1 N002 0 1V
+I1 0 a 2A
+R4 N003 N001 3
+R5 N002 N003 3
+R1 N001 a 4
+R3 N002 N001 6
+R2 N001 0 4
+Rbornes a 0 5
+.op
+.backanno
+.end
