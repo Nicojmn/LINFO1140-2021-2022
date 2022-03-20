@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[margin=2cm]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{empheq}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{lmodern,textcomp}
+\usepackage{tcolorbox}
+\usepackage{karnaugh-map}
+
+
+
+% Change itemize dash by bullet
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+% Bulma CSS framework color, see : https://bulma.io/documentation/overview/colors/
+
+\definecolor{primary}{HTML}{00d1b2}
+\definecolor{link}{HTML}{3273dc}
+\definecolor{info}{HTML}{209cee}
+\definecolor{success}{HTML}{48c774}
+\definecolor{warning}{HTML}{ffdd57}
+\definecolor{danger}{HTML}{ff3860}
+
+% Command for easier color management in tcolorbox
+
+\newenvironment{titletbox}[2] % 1 = title, 2 = color
+  {\tcolorbox[noparskip,colback=#2!5!white,colframe=#2!75!black,arc=1mm,title=#1,halign title = center]}
+  {\endtcolorbox}
+
+\newenvironment{tbox}[1] % 1 = color
+  {\tcolorbox[noparskip,colback=#1!5!white,colframe=#1!75!black,arc=1mm]}
+  {\endtcolorbox}
+
+
+
+% hyperlinks setup 
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=cyan,
+  filecolor=magenta,      
+  urlcolor=blue,
+  pdfpagemode=FullScreen,
+}
+
+
+
+\begin{document}
+
+    \input{header.tex}
+
+    \input{corps.tex}
+
+\end{document}
